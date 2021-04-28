@@ -1,0 +1,56 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+.image-gallery {
+  display: inline-block;
+}
+
+.image-gallery img {
+  float: left;
+  width: 150px;
+  height: 100px;
+  padding: 5px 5px;
+}
+
+.image-gallery img:hover {
+  opacity: 0.4;
+}
+
+#second {
+  color: black;
+}
+
+.content p {
+  color: blue;
+}
+
+#last {
+  color: red;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  font-size: 17px;
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: blue;
+  color: white;
+}
